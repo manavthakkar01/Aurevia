@@ -42,7 +42,7 @@ module.exports.createListing=async(req,res,next)=>{
                 limit: 1,
             },
             headers: {
-                "User-Agent": "wanderlust-app",
+                "User-Agent": "Aurevia-app",
             },
         }
     );
@@ -117,7 +117,7 @@ module.exports.updateListing = async (req, res) => {
                 limit: 1,
             },
             headers: {
-                "User-Agent": "wanderlust-app",
+                "User-Agent": "Aurevia-app",
             },
         }
     );
